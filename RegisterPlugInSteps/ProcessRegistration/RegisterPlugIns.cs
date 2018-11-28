@@ -363,7 +363,7 @@ namespace RegisterPlugInSteps
                 crmService.Create(pluginToBeUpdated);
             }
             logMessages.Append(Environment.NewLine);
-            logMessages.Append("Plugin " + xmlReader["Name"] + " with " + pluginTypeId + " Registered Successfully");
+            logMessages.Append("Plugin " + xmlReader["Name"] + " with " + pluginTypeId + " Registered Successfully " + DateTime.Now.ToString());
             logMessages.Append(Environment.NewLine);
             logMessages.Append("*********************************************************************************************************************************");
             return pluginTypeId;
@@ -404,7 +404,7 @@ namespace RegisterPlugInSteps
                 crmService.Create(assemblyToUpdate);
             }
             logMessages.Append(Environment.NewLine);
-            logMessages.Append("Plugin Assembly :" + attributes[0] + " with " + pluginAssemblyId + " " + operation + " Registered Successfully");
+            logMessages.Append("Plugin Assembly :" + attributes[0] + " with " + pluginAssemblyId + " " + operation + " Registered Successfully " + DateTime.Now.ToString());
             return pluginAssemblyId;
         }
 
@@ -434,7 +434,7 @@ namespace RegisterPlugInSteps
                 crmService.Create(assemblyToUpdate);
             }
             logMessages.Append(Environment.NewLine);
-            logMessages.Append("Plugin Assembly :" + attributes[0] + " with " + pluginAssemblyId + " " + operation + " Successfully");
+            logMessages.Append("Plugin Assembly :" + attributes[0] + " with " + pluginAssemblyId + " " + operation + " Successfully " + DateTime.Now.ToString());
             return pluginAssemblyId;
         }
 
