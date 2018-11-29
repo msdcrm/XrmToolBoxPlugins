@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegisterPlugins));
-            CSRichTextBoxSyntaxHighlighting.XMLViewerSettings xmlViewerSettings7 = new CSRichTextBoxSyntaxHighlighting.XMLViewerSettings();
+            CSRichTextBoxSyntaxHighlighting.XMLViewerSettings xmlViewerSettings11 = new CSRichTextBoxSyntaxHighlighting.XMLViewerSettings();
             this.toolStripMenu = new System.Windows.Forms.ToolStrip();
             this.tsbClose = new System.Windows.Forms.ToolStripButton();
             this.tssSeparator1 = new System.Windows.Forms.ToolStripSeparator();
@@ -114,9 +114,9 @@
             this.btnAddUpdatePlugin.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAddUpdatePlugin.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnAddUpdatePlugin.Location = new System.Drawing.Point(311, 90);
+            this.btnAddUpdatePlugin.Location = new System.Drawing.Point(299, 90);
             this.btnAddUpdatePlugin.Name = "btnAddUpdatePlugin";
-            this.btnAddUpdatePlugin.Size = new System.Drawing.Size(308, 37);
+            this.btnAddUpdatePlugin.Size = new System.Drawing.Size(277, 37);
             this.btnAddUpdatePlugin.TabIndex = 16;
             this.btnAddUpdatePlugin.Text = "Add/Update PlugIn Assembly";
             this.btnAddUpdatePlugin.UseVisualStyleBackColor = true;
@@ -124,8 +124,7 @@
             // 
             // btnBrowse
             // 
-            this.btnBrowse.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnBrowse.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnBrowse.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnBrowse.Location = new System.Drawing.Point(794, 35);
             this.btnBrowse.Name = "btnBrowse";
@@ -222,9 +221,9 @@
             // 
             this.btnProcessRegistration.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnProcessRegistration.Location = new System.Drawing.Point(311, 353);
+            this.btnProcessRegistration.Location = new System.Drawing.Point(299, 353);
             this.btnProcessRegistration.Name = "btnProcessRegistration";
-            this.btnProcessRegistration.Size = new System.Drawing.Size(308, 36);
+            this.btnProcessRegistration.Size = new System.Drawing.Size(277, 36);
             this.btnProcessRegistration.TabIndex = 9;
             this.btnProcessRegistration.Text = "Add/Update PlugIn Assembly and Register Steps";
             this.btnProcessRegistration.UseVisualStyleBackColor = true;
@@ -246,12 +245,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.rtbRegistrationSteps.Location = new System.Drawing.Point(4, 21);
             this.rtbRegistrationSteps.Name = "rtbRegistrationSteps";
-            xmlViewerSettings7.AttributeKey = System.Drawing.Color.Red;
-            xmlViewerSettings7.AttributeValue = System.Drawing.Color.Blue;
-            xmlViewerSettings7.Element = System.Drawing.Color.DarkRed;
-            xmlViewerSettings7.Tag = System.Drawing.Color.Blue;
-            xmlViewerSettings7.Value = System.Drawing.Color.Black;
-            this.rtbRegistrationSteps.Settings = xmlViewerSettings7;
+            xmlViewerSettings11.AttributeKey = System.Drawing.Color.Red;
+            xmlViewerSettings11.AttributeValue = System.Drawing.Color.Blue;
+            xmlViewerSettings11.Element = System.Drawing.Color.DarkRed;
+            xmlViewerSettings11.Tag = System.Drawing.Color.Blue;
+            xmlViewerSettings11.Value = System.Drawing.Color.Black;
+            this.rtbRegistrationSteps.Settings = xmlViewerSettings11;
             this.rtbRegistrationSteps.Size = new System.Drawing.Size(901, 187);
             this.rtbRegistrationSteps.TabIndex = 1;
             this.rtbRegistrationSteps.Text = "";
@@ -287,8 +286,7 @@
             // 
             // brnBrowsePluginAssemblyFolder
             // 
-            this.brnBrowsePluginAssemblyFolder.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.brnBrowsePluginAssemblyFolder.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.brnBrowsePluginAssemblyFolder.Location = new System.Drawing.Point(794, 237);
             this.brnBrowsePluginAssemblyFolder.Name = "brnBrowsePluginAssemblyFolder";
             this.brnBrowsePluginAssemblyFolder.Size = new System.Drawing.Size(111, 32);
