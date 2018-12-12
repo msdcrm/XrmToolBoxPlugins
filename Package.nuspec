@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>RegisterMSCrmPlugInSteps</id>
+    <version>1.2018.12.10</version>
+    <title>Register Plugin Assembly and Plugin Steps</title>
+    <authors>msdcrm</authors>
+    <owners>msdcrm</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/msdcrm/XrmToolBoxPlugins</projectUrl>
+    <iconUrl>https://github.com/msdcrm/XrmToolBoxPlugins/blob/master/RegisterPlugInSteps/Resources/RegisterPlugInSteps64x64.png?raw=true</iconUrl>
+    <description>
+      Register new plugin assembly or update existing plugin assembly by selecting assembly path.
+      Register plugin steps with corresponding images from registry xml file and add them to solution.
+    </description>
+    <summary>Add/Update plugin assembly. Register plugin steps and add them to a solution.</summary>
+    <releaseNotes>
+      
+    </releaseNotes>
+    <language>en-US</language>
+    <tags>XrmToolBox Register Plugin Steps</tags>
+    <dependencies>
+      <dependency id="XrmToolBox" version="1.2018.7.28" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="RegisterPlugInSteps.dll" target="lib\net462\Plugins" />
+  </files>
+</package>
